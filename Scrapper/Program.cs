@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
 
-var jsonData = File.ReadAllText("C:\\Users\\jarod\\source\\repos\\Scrapper\\Scrapper\\data.json");
+var jsonData = File.ReadAllText($"{YOUR FILE JSON HERE});
 var data = Cencus.FromJson(jsonData);
 string[] labels = { "Abortion", "LGBT", "Transgender", "BLM Black Lives Matter", "Free Speech", "Capitalism", "Immigration" };
 
